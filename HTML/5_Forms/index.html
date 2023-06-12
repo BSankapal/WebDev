@@ -1,38 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h2 style="background-color: teal;">Forms</h2>
-    Form is a structure used to collect user input.
-
-    Tages used ->
+  </head>
+  <body>
+    <h2 style="background-color: teal">Forms</h2>
+    Form is a structure used to collect user input. Tages used ->
     <ul>
-        <li>form - To create HTML forms for user input</li>
-        <li>input - many types id, checkbox, date selection</li>
-        <li>label - creates label and screen reader. CONTAINS for attribute whose value equals to ID of INPUT.</li>
+      <li>form - To create HTML forms for user input</li>
+      <li>input - many types id, checkbox, date selection</li>
+      <li>
+        label - creates label and screen reader. CONTAINS for attribute whose
+        value equals to ID of INPUT.
+      </li>
     </ul>
 
+    <br />
+
+    <form>
+      <label for="email">Enter Your Email ID</label>
+      <input type="text" id="email" placeholder="Add your email id" />
+      <br />
+      <label for="pass">Enter Your Password</label>
+      <input type="text" id="pass" />
+      <br />
+      <input type="submit" value="Click Here" />
+      <button>Button</button>
+    </form>
+
+    <br />
+    Type attribute decides the type of input - text, radio, checkbox, date.
+    Action attribute in <b>form</b> indicates the actions to be taken on the
+    data.(Ex send it to Server). Placeholder attribute in <b>input</b> is to add
+    faded text in input box.
+
+    <h2 style="background-color: blanchedalmond; color: darkslategray">
+      Elements in form
+    </h2>
+    Input, Label, Button. Select -> dropdown menu. Option -> create option for
+    dropdown. TextArea -> Multiple lines of input. Fieldset -> Group large
+    number of Elements Legend -> Is used to Caption fieldset.
+
+    <br>
     <br>
 
     <form>
-        <label for="email">Enter Your Email ID</label>
-        <input type="text" id="email" placeholder="Add your email id">
-        <br>
-        <label for="pass">Enter Your Password</label>
-        <input type="text" id="pass">
-        <br>
-        <input type="submit" value="Click Here">
-        <button>Button</button>
+      <fieldset>
+        <legend>HTML form Dummy - Inside of Fieldset and Legend - Caption </legend>
+        <label for="datepicker">Choose DOB</label>
+        <input type="date" id="datepicker" />
+        <br />
+        Dropdown
+        <br />
+        <label for="sel1">Choose Gender</label>
+        <select name="Gender" id="sel1">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">None</option>
+        </select>
+
+        <br />Button
+        <button>I am Button</button>
+
+        <br />Text Area
+        <br />
+        <textarea
+          name="ta1"
+          id="ta1"
+          cols="30"
+          rows="10"
+          placeholder="Enter text"
+        ></textarea>
+      </fieldset>
     </form>
 
-    <br>
-    Type attribute decides the type of input - text, radio, checkbox, date.
-    Action attribute in <b>form</b> indicates the actions to be taken on the data.(Ex send it to Server).
-    Placeholder attribute in <b>input</b> is to add faded text in input box.
-</body>
+
+    <h3 style="background-color:teal; color:yellow;">Input Type</h3>
+    <ol>
+        <li>TextField</li>
+        <!-- <label for="tf">Label for TextField : </label> -->
+        <input type="text" id="tf" placeholder="By Default input element has text type" style="width: 250px;">
+        <li>Button</li>
+        <input type="submit" value="submit">
+        <li>Radio</li>
+        For choosing single radio button we need to keep name same.<br>
+        <label for="r1">HTML</label>
+        <input type="radio" name="r1" id="r1" value="HTML">
+        <label for="r2">CSS</label>
+        <input type="radio" name="r1" id="r2" value="CSS">
+        <label for="r3">JS</label>
+        <input type="radio" name="r1" id="r3" value="JS">
+        <li>Checkbox</li>
+        <label for="c1">English</label>
+        <input type="checkbox" name="c1" id="c1">
+        <label for="c2">Hindi</label>
+        <input type="checkbox" name="c2" id="c2">
+        <li>file-select</li>
+        <label for="f1">Upload File : </label>
+        <input type="file" name="f1" id="f1">
+        <li>image</li>
+        <input type="image" src="Img.jpeg" alt="IronMan" style="width: 120px; height: 150px;">
+        <li>password-field</li>
+        <label for="p1">Enter Password</label>
+        <input type="password" name="p1" id="p1">
+        <li>date</li>
+        <input type="date" name="d1" id="d1">
+    </ol>
+
+  </body>
 </html>
