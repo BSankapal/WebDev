@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Tags used for making table ->
+    <ul>
+        <li>table - enclosed</li>
+        <li>thead - heading</li>
+        <li>tbody - actual content</li>
+        <li>tfoot - last conclusion(summarisation)</li>
+    </ul>
+
+    <table border="1">
+        <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td colspan="3">Balaji</td>
+                <!-- <td>M</td>
+                <td>20</td> -->
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>A</td>
+                <td>M</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>C</td>
+                <td>M</td>
+                <td rowspan="3">3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>D</td>
+                <td>M</td>
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>E</td>
+                <td>F</td>
+                <!-- <td></td> -->
+            </tr>
+        </tbody>
+    </table>
+
+    <br/>
+
+    <table border="1">
+        <thead>
+            <th>Col1</th>
+            <th>Col2</th>
+            <th>Col3</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Row1Cell1</td>
+                <td>Row1Cell2</td>
+                <td>Row1Cell3</td>
+            </tr>
+            <tr>
+                <!-- <td></td> -->
+                <td>Row2Cell2</td>
+                <td>Row2Cell3</td>
+            </tr>
+            <tr>
+                <td colspan="3">Row3Cell1</td>
+                <!-- <td></td>
+                <td></td> -->
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <table border="1">
+        <thead>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Salary</th>
+            <th>Type</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill</td>
+                <td>MS</td>
+                <td>100</td>
+                <td rowspan="4">Founder</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jobs</td>
+                <td>Apple</td>
+                <td>200</td>
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>Google</td>
+                <td>150</td>
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark</td>
+                <td>Fb</td>
+                <td>120</td>
+                <!-- <td></td> -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Expense:</td>
+                <td>4600</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    
+</body>
+</html>
