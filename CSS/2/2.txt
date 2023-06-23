@@ -1,0 +1,52 @@
+Colors and Background
+
+Color property 
+.class{
+    color:red;
+    background-color:blue;
+}
+
+Color Values
+1. RGB - red blue green = (255, 255, 255)
+2. Hex code - #ff7180
+3. HSL - Hue, saturation, lightness
+
+RGBA, HSLA - A for Alpha 
+
+Background Image property
+Used to dispaly image in the background.
+
+body{
+    background-image: url('a.jpg');
+}
+
+Bckground Repeat Property ->
+background-repeat:
+1. repeat-x = repeat horizontally
+2. repeat-y = repeat vertically
+3. no-repeat = no repeat
+4. space - repeat without clipping
+5. round 
+
+Background Size property ->
+1. cover - fits and no empty space remains(aspect ratio same)
+2. contain - fits and all image is visible
+3. auto - display in original Size
+4. {{width}}
+5. {{width}}{{height}}
+
+Background Position ->
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-position
+background-position: center, top, bottom, left, right, 25% 30%, right 30px top 40px
+
+Background attachment property ->
+1. scroll - The background is fixed relative to the element itself and does not scroll with its contents. 
+2. fixed - The background is fixed relative to the viewport. Even if an element has a scrolling mechanism, the background doesn't move with the element.
+3. local - The background is fixed relative to the element's contents. If the element has a scrolling mechanism, the background scrolls with the element's contents.
+
+Background Shorthand  -> 
+single property to select multiple background properties.
+
+h3{
+    background:color image repeat attachment position
+}

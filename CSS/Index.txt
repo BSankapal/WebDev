@@ -1,0 +1,15 @@
+INDEX Page
+Source - https://www.youtube.com/watch?v=Edsxf_NBFrw&t=6468s
+
+There are 8 modules in the course.
+0. What is CSS
+1. First CSS Website
+2. Colors and Background
+3. CSS Box model 
+4. Fonts and Displays
+5. Size, Position, Lists
+6. CSS Flexbox
+7. CSS grid and Media Queries
+8. Transform, Transitions and Animation
+
+Project - Flipkart Clone Project

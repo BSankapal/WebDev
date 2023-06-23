@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* .red{
+    color: aliceblue;
+    background-color: red;
+    height:200px;
+}
+
+.blue{
+    color: antiquewhite;
+    background-color: blue;
+} */
+
+.container{
+    border: 2px solid rosybrown;
+    width: 404px;
+    height: 344px;
+    background-color: rgb(178, 116, 233); 
+    color: bisque;
+    background-image: url('img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 50%; */
+    /* background-position: top; */
+    /* background-size: auto; */
+    /* background-size: 1000px; */
+}
+
+.bgd-attch{
+    border: 10px solid rgb(217, 150, 15);
+    background-color: burlywood;
+    color:darkslateblue;
+    height: 1200px;
+    width: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('mi.jpeg');
+    background-attachment: fixed;
+}
+
+
+/* 
+body{
+    background-image: url('img.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

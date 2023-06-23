@@ -1,0 +1,11 @@
+.red, h3{
+    color: red;
+    background-color: aquamarine;
+}
+.bg-blue{
+    background-color: blue;
+}
+.border-purple{
+    border-color: palegreen;
+    border-width: 100px;
+}

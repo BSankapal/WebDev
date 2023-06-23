@@ -1,0 +1,42 @@
+Module 1 - Creating first website in CSS
+
+DOM - Document Object Model
+The Document Object Model (DOM) is a programming interface for web documents.
+It represents the page so that programs can change the document structure, style, and content. 
+
+The DOM represents a document with a logical tree.
+
+Basics - HTML id and class
+id -> unique identifier for that element
+element#id
+
+class -> element belongs to certain class
+element.class
+
+3 Ways to add CSS to HTML
+1. <style> tag in head 
+2. Inline CSS - adding CSS in element using style attribute
+3. External CSS - adding stylesheet (.css) to HTML using <link> tag
+
+CSS Selectors
+Selectors are used to select element for styling.
+
+SELECTOR - body
+
+body{
+    color:red; -> DECALARATION
+    [property:value]
+}
+
+1. Element Selectors - to select tags/elements of HTML
+2. id selectors - #id{}
+3. class selectors - .class{}
+
+how to group use comma(,)
+#id, h3{
+}
+
+* can be used as universal selector.
+
+Inline style will override internal and external style.
+

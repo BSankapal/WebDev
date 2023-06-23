@@ -1,0 +1,9 @@
+Introduction to CSS 
+
+CSS - Cascading style sheet
+
+HTML - Skeletal of Website
+CSS - Design and add style to Website
+
+Linking of style sheet in HTML file in head tag
+<link rel="stylesheet" href="style.css">
