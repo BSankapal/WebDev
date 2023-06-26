@@ -1,0 +1,43 @@
+Fonts and Display
+
+Display =>
+1. Inline - Span default inline element
+Takes only space element required for the element. 
+No linebreaks before and after. setting width and height (top/bottom margin and padding) NOT Applicable.
+Left Right margin/padding can be applied.
+
+2. Block - Default div element. 
+Full space available in width. Newline after each element.
+
+3. Inline-Block
+Similar to inline but setting height, width , margin and padding is allowed. 
+Element can sit next ot each other.
+
+4. display:none - element is removed from document flow and its space is not blocked.
+   visibility:hidden - element is hidden but the space is reserved.
+
+
+Text-Alignment = text-align: center left Right
+
+Text-Transform = text-transform: uppercase, lowercase, capitalize, none.
+
+text-decoration: underline; -> use it carefully as it might look like a link.
+
+Line-height = spacing between 2 lines.
+
+FONTS ==>
+font-size
+font-family - font of the text. Fallback system - if one font is not applicable then next font is applied.
+(Web-safe font - available in every browser)
+
+font-size - 
+
+font-style - normal, italic, oblique, bold.
+
+font-variant - sets whether the text is dispyed in small caps
+
+font-weight
+
+Generic Family ==>
+Broad class of similar Fonts
+

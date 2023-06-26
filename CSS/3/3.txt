@@ -1,0 +1,40 @@
+Chapter 3 - CSS Box Model
+
+HTML elements as Box 
+
+Margin > Border > Padding > Content
+
+1. Setting Margin(Same with Padding)
+
+margin : top right bottom left 
+(Clockwise)
+margin : top&bottom left&right
+
+2. Setting Border
+
+.bx{
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+
+    ORR
+
+    border : 2px solid red;
+}
+
+3. Margin collapse
+
+If 2 margin collapse from different elements overlap,
+the equivalent margin is greater of the two.
+
+4. Border Sizing
+
+Determines whether padding and margin is includede 
+in element width and height or not.
+(margin is not included).
+
+border-box = includes i.e content+padding+border
+content-box = excludes(default)
+
+
+
